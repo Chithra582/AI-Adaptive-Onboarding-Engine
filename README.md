@@ -1,7 +1,5 @@
 # AI-Adaptive Onboarding Engine 🚀
 
-**Winner-Ready Hackathon Project for Intelligent Talent Management**
-
 The **AI-Adaptive Onboarding Engine** is a full-stack, AI-driven platform designed to bridge the gap between candidate expertise and job requirements. By leveraging state-of-the-art LLMs (Mistral-7B) and public datasets (Kaggle/O*NET), it provides automated skill gap analysis and dynamically generates personalized learning roadmaps.
 
 ## 🌟 Key Features
