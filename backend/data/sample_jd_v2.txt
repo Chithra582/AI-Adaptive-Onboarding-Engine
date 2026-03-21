@@ -1,0 +1,7 @@
+We are looking for a Senior DevOps Engineer to lead our infrastructure automation.
+Requirements:
+- Strong experience with Terraform and Infrastructure as Code.
+- Expertise in AWS and Google Cloud Platform.
+- Hands-on experience with Kubernetes, Helm, and Istio.
+- Proficient in Python for scripting and automation.
+- Deep understanding of CI/CD best practices and security.

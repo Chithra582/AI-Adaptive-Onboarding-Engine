@@ -1,0 +1,7 @@
+We are looking for a Senior Full Stack Engineer with expertise in:
+- Python (FastAPI/Django)
+- React.js and Tailwind CSS
+- AWS Cloud Services
+- SQL and NoSQL Databases
+- Kubernetes and CI/CD
+- Experience with AI/ML integrations is a plus.
