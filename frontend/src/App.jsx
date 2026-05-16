@@ -23,7 +23,7 @@ function App() {
     formData.append('jd_text', jdText);
 
     try {
-      const response = await fetch('/api/analyze', {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/analyze`, {
         method: 'POST',
         body: formData,
       });
@@ -43,7 +43,7 @@ function App() {
       setResults(data);
     } catch (err) {
       console.error(err);
-      setError(`Analysis failed: ${err.message}. (Ensure the backend is running on 127.0.0.1:8000)`);
+      setError(`Analysis failed: ${err.message}.`);
     } finally {
       setLoading(false);
     }
