@@ -8,3 +8,4 @@ scikit-learn
 pydantic
 pandas
 requests
+python-dotenv
