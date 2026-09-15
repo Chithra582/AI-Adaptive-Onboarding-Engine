@@ -1,7 +1,6 @@
 ---
 name: skill-gap-analysis
 description: Computes literal and semantic similarity between candidate skills and job requirements.
-version: 1.0.0
 ---
 
 # Skill Gap Analysis Skill

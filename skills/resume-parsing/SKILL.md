@@ -1,7 +1,6 @@
 ---
 name: resume-parsing
 description: Extracts candidate technical skills and experience levels from resumes using NLP and pattern matching.
-version: 1.0.0
 ---
 
 # Resume Parsing Skill

@@ -1,7 +1,6 @@
 ---
 name: job-description-analysis
 description: Extracts required role competencies and tech stacks from job descriptions.
-version: 1.0.0
 ---
 
 # Job Description Analysis Skill

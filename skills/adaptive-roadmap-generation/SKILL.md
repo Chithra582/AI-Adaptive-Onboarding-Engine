@@ -1,7 +1,6 @@
 ---
 name: adaptive-roadmap-generation
 description: Generates chronologically sequenced adaptive learning pathways and upskilling milestones.
-version: 1.0.0
 ---
 
 # Adaptive Roadmap Generation Skill
