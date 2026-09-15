@@ -42,7 +42,7 @@ npm run dev
 *Frontend runs on `http://localhost:5173`*
 
 ### Deployed Link
-  https://ai-adaptive-onboarding-engine-one.vercel.app/
+https://ai-adaptive-onboarding-engine-one.vercel.app/
 
 ## 📊 Dataset Attribution
 - **Kaggle Resume Dataset**: [snehaanbhawal/resume-dataset](https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset)

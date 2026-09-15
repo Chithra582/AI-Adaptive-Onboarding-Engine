@@ -1,0 +1,53 @@
+spec_version: "0.1.0"
+name: "ai-adaptive-onboarding-engine"
+version: "1.0.0"
+description: "AI-driven adaptive learning and onboarding engine that parses resumes and job descriptions, identifies skill gaps, and dynamically maps personalized training pathways."
+category: "hr-and-recruiting"
+author: "Chithra R"
+license: "MIT"
+
+model:
+  provider: "huggingface"
+  name: "mistralai/Mistral-7B-Instruct-v0.2"
+  fallback: "all-MiniLM-L6-v2"
+  temperature: 0.2
+
+roles:
+  - name: "onboarding-analyst"
+    description: "Analyzes candidate resume against job description skill ontology"
+  - name: "roadmap-synthesizer"
+    description: "Synthesizes personalized adaptive learning roadmaps with curated modules"
+
+capabilities:
+  - "resume-parsing"
+  - "job-description-analysis"
+  - "skill-gap-analysis"
+  - "adaptive-roadmap-generation"
+
+runtime:
+  entrypoint: "backend/main.py"
+  type: "python"
+  version: ">=3.10"
+  framework: "fastapi"
+
+compliance:
+  risk_tier: "low"
+  domain: "hr-and-recruiting"
+  data_protection:
+    pii_handling: "in-memory-ephemeral"
+    retention_policy: "no-persistent-pii"
+
+exports:
+  openai:
+    type: "assistant"
+    model: "gpt-4o"
+    instructions: "You are an AI-Adaptive Onboarding Specialist. Given a candidate resume and job description, identify skill gaps and generate a personalized curriculum."
+  crewai:
+    role: "Onboarding & Upskilling Specialist"
+    goal: "Bridge candidate skill gaps through customized learning timelines"
+    backstory: "Expert enterprise talent development strategist with deep O*NET taxonomy and semantic matching knowledge."
+  claude_code:
+    command: "python backend/main.py"
+    description: "Launch AI-Adaptive Onboarding API server"
+  lyzr:
+    agent_type: "HR Tech Career Development Agent"
